@@ -20,10 +20,10 @@ class RoundedInputField extends StatelessWidget {
         onChanged: onChanged,
         cursorColor: kPrimaryColor,
         decoration: InputDecoration(
-          icon: Icon(
-            icon,
-            color: kPrimaryColor,
-          ),
+          // icon: Icon(
+          //   icon,
+          //   color: kPrimaryColor,
+          // ),
           hintText: hintText,
           border: InputBorder.none,
         ),
